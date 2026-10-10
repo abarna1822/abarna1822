@@ -32,11 +32,8 @@ Building practical web applications, intelligent AI solutions, and data-driven p
 </p>
 
 ### AI, Machine Learning & Data Analytics
-<p>
-  <img src="https://skillicons.dev/icons?i=sklearn,pytorch" alt="Machine learning technology icons" />
-</p>
 
-**Tools and libraries:** Pandas, NumPy, XGBoost, LightGBM, Prophet, SHAP, Plotly, Streamlit, Power BI
+**Libraries and tools:** Scikit-learn, Pandas, NumPy, XGBoost, LightGBM, Prophet, SHAP, LIME, Plotly, Streamlit, Power BI
 
 ### Databases & Developer Tools
 <p>
@@ -46,9 +43,9 @@ Building practical web applications, intelligent AI solutions, and data-driven p
 ## 🚀 Featured Projects
 
 ### 🩺 HepatoScan AI — Liver Cirrhosis Prediction
-Machine-learning project focused on liver cirrhosis risk prediction, with explainability using SHAP and LIME and a Streamlit dashboard.
+Machine-learning project focused on liver cirrhosis prediction, with explainability using SHAP and LIME and a Streamlit dashboard.
 
-> Add the public repository link here once you confirm the correct URL.
+> Add the public repository link here after confirming the correct URL.
 
 ### 📈 Stock Forecasting Web App
 A forecasting application using Python, Flask, XGBoost, and Prophet, with data upload and interactive visualizations.
@@ -87,4 +84,4 @@ Data visualization project focused on sales and business performance.
 
 path = Path("/mnt/data/README.md")
 path.write_text(readme, encoding="utf-8")
-print(f"Created: {path}")
+print(f"Created {path} ({path.stat().st_size} bytes)")
